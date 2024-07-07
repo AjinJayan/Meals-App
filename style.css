@@ -1,0 +1,63 @@
+:root {
+    --bs-gradient: linear-gradient(45deg, rgb(0, 0, 247), rgb(0, 247, 0) 120%);
+}
+
+.remove-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#alarm-main {
+    position: relative;
+    min-height: 60vh;
+}
+
+#upcomming-alarms-container {
+    height: 34vh;
+}
+
+.resizeformc {
+    width: 75px;
+    display: inline;
+}
+
+.new-alarm {
+    /* border: gray 1px solid; */
+    background-color: rgb(227, 235, 241);
+    border-radius: 5px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+@keyframes moveup {
+    from {
+        top: 100%;
+    }
+
+    to {
+        top: 92%;
+    }
+}
+
+#alarm-time-left {
+    display: none;
+    text-align: center;
+    width: 90%;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgb(90, 85, 85);
+    border-radius: 8px;
+    height: 30px;
+    color: white;
+    animation: moveup 0.8s ease-in-out;
+}
