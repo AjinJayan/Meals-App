@@ -6,7 +6,7 @@ Meal App Using HTML, CSS, Vanila JavaScript -- Coding Ninjas Skill Test 2
 * CSS - BootStrap
 * Vanila JavaScript
 
-https://github.com/user-attachments/assets/83ad07eb-b80e-4686-a6cb-7f307e8754fd
+https://github.com/user-attachments/assets/1f89ae3a-1b10-4418-84b0-312471596a6c
 
 ## Features
 * Search any meal from the API and display the search results on the frontend with suggestions shown as you type
