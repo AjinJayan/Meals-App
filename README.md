@@ -28,7 +28,7 @@ https://ajinjayan.github.io/Meals-App/
 
 Clone the Repo and launch index.html in any browser: 
 ```
-https://github.com/AjinJayan/Meals-App.git
+git clone https://github.com/AjinJayan/Meals-App.git
 ```
 
 ## Author 
